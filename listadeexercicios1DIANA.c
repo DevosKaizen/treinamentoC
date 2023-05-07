@@ -3,6 +3,7 @@
 #include <math.h>
 
 //1. Solicite ao usuário dois inteiros e exiba a soma, o produto e a divisão desses dois números.
+//vamos fazer com do while
 
 int soma(int a, int b){
     int resultado;
