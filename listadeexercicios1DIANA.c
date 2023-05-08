@@ -56,14 +56,34 @@ int main(){
     printf("\n Digite o segundo numero inteiro: ");
     scanf("%d", &b);
     
+    printf("\n Os inteiros foram: %d e %d\n\n", a, b);
     
     resultadosoma = soma(a, b);
     resultadoproduto = produto(a, b);
     resultadodivisao = divisao(a, b);
+
+    
     
     printf("\n A soma dos inteiros e: %d", resultadosoma);
     printf("\n O produto dos inteiros e: %d", resultadoproduto);
     printf("\n A divisao dos inteiros e: %d", resultadodivisao);
+
+    printf("\n\n AGORA VAMOS CALCULAR A AREA");
+
+    //VARIAVEIS NOVAS
+    
+    //double c;
+    double resultado;
+
+    printf("\n 2. Calcule a área de uma circunferência, e apresente a medida na tela. A área de uma circunferência é calculada por AREA = 3.14159 * RAIO^2"); 
+    
+    printf("\n Digite o raio: ");
+    scanf("%lf", &c);
+
+    c = c * c;
+    resultado = 3.14159 * c;
+    
+    printf("\n O RESULTADO DO RAIO E: %lf ",resultado);
 
     //area( a, b);
     

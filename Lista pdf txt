@@ -1,29 +1,48 @@
 Universidade Federal do Rio Grande - FURG
 INTRODUÇÃO A CIÊNCIA DA COMPUTAÇÃO
 LISTA DE EXERCÍCIOS 1
+
+
+
 Em cada exercício abaixo, escreva um algoritmo que:
 1. Solicite ao usuário dois inteiros e exiba a soma, o produto e a divisão desses
 dois números.
 
+
+
 2. Calcule a área de uma circunferência, e apresente a medida
 na tela. A área de uma circunferência é calculada por
 AREA = 3.14159 * RAIO2
+
+
+
 3. Calcule e apresente o valor do volume de uma lata de óleo, utilizando a
 fórmula:
 VOLUME = 3.14159 * RAIO2 * ALTURA
+
+
+
 4. Leia uma temperatura em graus Celsius e apresente-a convertida em
 graus Farenheit. A fórmula de conversão é:
 F = (9 * C + 160) / 5, sendo F a temperatura em farenheit e C a temperatura
 em celsius.
+
+
+
 5. Leia uma temperatura em graus Farenheit e apresente-a convertida em
 graus Celsius. A fórmula de conversão é:
 C = 5*(F – 32) / 9, sendo F a temperatura em farenheit e C a temperatura em
 celsius.
+
+
 6. Calcule o salário líquido de um professor. Para realizar esse cálculo, o algoritmo
 deverá possuir alguns dados: valor da hora/aula, número de horas
 trabalhadas no mês e percentual de desconto do INSS. Em primeiro lugar,
 deve-se estabelecer o seu salário bruto para fazer o desconto e ter o valor do
 salário líquido.
+
+
+
 7. Efetue o cálculo da quantidade de litros de combustível gasta em uma viagem,
 utilizando um automóvel que faz 12 km por litro. Para obter o cálculo, o
 usuário deve fornecer o tempo gasto e a velocidade média durante a viagem.
@@ -31,40 +50,46 @@ Desta forma, será possível obter a distância percorrida com a fórmula DISTAN
 = TEMPO * VELOCIDADE. Tendo o valor da distância, basta calcular
 a quantidade de litros de combustível utilizada na viagem com a fórmula:
 LITROS USADOS = DISTANCIA / 12. O algoritmo deve apresentar os valo-
-1
-Universidade Federal do Rio Grande - FURG
 res da velocidade média, tempo gasto na viagem, a distância percorrida e a
 quantidade de litros utilizada na viagem.
+
+
 8. Leia dois valores para as variáveis A e B, e efetue a troca dos valores de
 forma que a variável A passe a possuir o valor da variável B e a variável B
 passe a possuir o valor da variável A. Apresentar os valores trocados.
 9. Calcule e apresente o volume de uma caixa retangular, utilizando a fórmula:
 VOLUME = COMPRIMENTO * LARGURA * ALTURA
+
 10. Leia dois valores inteiros (variáveis A e B) e apresente o resultado do
-quadrado da diferença do primeiro valor (variável A) pelo segundo valor (variável
-B).
+quadrado da diferença do primeiro valor (variável A) pelo segundo valor (variável B).
+
 11. Apresente o valor da conversão em real (R$) de um valor lido em dólar
 (US$). O algoritmo deve solicitar o valor da cotação do dólar e também a
 quantidade de dólares disponível com o usuário.
+
 12. Apresente o valor da conversão em dólar (US$) de um valor lido em real
 (R$). O programa deve solicitar o valor da cotação do dólar e também a
 quantidade de reais disponível com o usuário.
+
 13. Leia três valores inteiros (representados pelas variáveis A, B e C) e apresente
 como resultado final o valor da soma dos quadrados dos três valores lidos.
+
 14. Leia a quantidade de balas a serem distribuídas e o número de pessoas,
 pelas quais as balas serão distribuídas. O algoritmo deve calcular e mostrar
 na tela a quantidade de balas que cada pessoa recebeu e quantas balas sobraram
 na divisão.
+
 15. Leia três valores inteiros (representados pelas variáveis A, B e C) e apresente
 como resultado final o valor do quadrado da soma dos três valores lidos.
+
 16. Faça a leitura de quatro valores inteiros (variáveis A, B, C e D) e apresente
 o resultado do produto do primeiro com o terceiro valor, e o resultado
 da soma do segundo com o quarto valor.
-2
-Universidade Federal do Rio Grande - FURG
+
 17. Leia o valor correspondente ao salário mensal de um trabalhador e também
 o valor do percentual de reajuste a ser atribuído. O algoritmo deve apresentar
 o valor do novo salário.
+
 18. Em uma eleição sindical concorreram ao cargo de presidente três candidatos
 (A, B e C). Durante a apuração dos votos foram computados votos nulos
 e votos em branco, além dos votos válidos para cada candidato. Deve ser
@@ -79,6 +104,7 @@ do candidato C em relação à quantidade de eleitores; o percentual corresponde
 de votos nulos em relação à quantidade de eleitores; e por último
 o percentual correspondente de votos em branco em relação à quantidade
 de eleitores.
+
 19. Calcule a quantidade de latas de tinta necessárias e o custo para pintar
 tanques cilíndricos de combustível, em que são fornecidos a altura e o raio
 desse cilindro. Sabendo que:
@@ -87,14 +113,16 @@ desse cilindro. Sabendo que:
 - cada litro de tinta pinta 3 metros quadrados
 Para calcular a área externa de um cilindro, utilize a fórmula
 AREA = 2 * PI * RAIO * (ALTURA + RAIO).
+
 20. Inverta um número inteiro, de 3 dígitos, fornecido, ou seja, apresentar primeiro
 a unidade e, depois, a dezena e a centena. O número deve ser lido
 como um único valor inteiro.
 Exemplo: 573  375
+
 21. Leia a massa de uma amostra de carbono, calcule e exiba o número de
 mols de carbono na amostra. Considere que o mol C é igual a 12 e a fórmula
-é:
-nº de mols = massa da amostra / 12
+é: nº de mols = massa da amostra / 12
+
 22. Leia uma determinada hora, seus minutos e segundos. O algoritmo deve
 mostrar quantos segundos existem nessa hora, minuto e segundo lidos?
 
