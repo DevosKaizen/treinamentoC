@@ -75,7 +75,7 @@ int main(){
     //double c;
     double resultado;
 
-    printf("\n 2. Calcule a área de uma circunferência, e apresente a medida na tela. A área de uma circunferência é calculada por AREA = 3.14159 * RAIO^2"); 
+    printf("\n 2. Calcule a area de uma circunferencia, e apresente a medida na tela. A area de uma circunferencia e calculada por AREA = 3.14159 * RAIO^2"); 
     
     printf("\n Digite o raio: ");
     scanf("%lf", &c);
@@ -85,9 +85,29 @@ int main(){
     
     printf("\n O RESULTADO DO RAIO E: %lf ",resultado);
 
+    printf("\n Fim do programa 2! ");
+//variaveis novas
+
+    double raio;
+    double altura;
+    double volume;
+
+    printf("3. Calcule e apresente o valor do volume de uma lata de oleo, utilizando a formula: VOLUME = 3.14159 * RAIO2 * ALTURA");
+    printf("\n Qual o raio? \n Digite aqui "); 
+    scanf("%lf\n", &raio);
+    printf("\n Qual a altura? \n Digite aqui "); 
+    scanf("%lf\n", &altura);
+    
+    //função real do exercicio
+    raio = raio * raio;
+    altura = raio * altura;
+    volume = 3.14159 * altura;
+
+    printf("\n O volume de uma lata de oleo E: %lf ",volume);
+    printf("\n Fim do programa 3! \n ");
     //area( a, b);
     
-
+    printf("\n PRECIONE QUALQUER TECLA PARA SAIR \n ");
     getchar();
     return 0;
     
