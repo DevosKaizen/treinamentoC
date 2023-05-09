@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <math.h>
 
-//1. Solicite ao usuário dois inteiros e exiba a soma, o produto e a divisão desses dois números.
+
 //vamos fazer com do while
 int exercicio1(int a, int b){
-
+//1. Solicite ao usuário dois inteiros e exiba a soma, o produto e a divisão desses dois números.
     
     int resultadosoma ;
     int resultadoproduto ; 
@@ -26,19 +26,19 @@ int exercicio1(int a, int b){
     
    
 
-    int soma(int a, int b);{
+    int soma(int a, int b){
         int resultado;
         resultado = a + b;
         printf("\n A soma dos inteiros e: %d", resultadosoma);
         return resultado;
     }
-    int produto(int a, int b);{
+    int produto(int a, int b){
         int resultado;
         resultado = a * b;
         printf("\n O produto dos inteiros e: %d", resultadoproduto);
         return resultado;
     }
-    int divisao(int a, int b);{
+    int divisao(int a, int b){
         int resultado;
         resultado = a / b;
         printf("\n A divisao dos inteiros e: %d", resultadodivisao);
@@ -82,6 +82,23 @@ double exercicio3(double volume){
     printf("\n O volume de uma lata de oleo E: %lf ",volume);
     printf("\n Fim do programa 3! \n ");
 }
+double exercicio4(double conversao){
+    /*  4. Leia uma temperatura em graus Celsius e apresente-a convertida em graus Farenheit. A fórmula de conversão é:
+        F = (9 * C + 160) / 5, sendo F a temperatura em farenheit e C a temperatura em celsius.     */
+ double graus;
+double F;
+double C;
+
+printf("\n Digite o valor em celcius: "); scanf("%lf", &C);
+F = 9 * C ;
+F = F + 160;
+conversao = F;
+printf("\n Agora vamos fazer a convecao para farenheit. \n e o resultado e: %lf", conversao);
+printf("\n\nfim do exercicio 4");
+
+}
+
+
 int main(){
 
     int a ;
@@ -96,11 +113,13 @@ int main(){
 
     
     double volume;
+    float conversao;
 
     printf("\n Vai tomar no cu caralho\n");
     exercicio1(a, b);
     exercicio2(resultado , c);
     exercicio3(volume);
+    exercicio4(conversao);
     
     
     
