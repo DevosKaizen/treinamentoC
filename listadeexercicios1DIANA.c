@@ -94,9 +94,9 @@ int main(){
 
     printf("3. Calcule e apresente o valor do volume de uma lata de oleo, utilizando a formula: VOLUME = 3.14159 * RAIO2 * ALTURA");
     printf("\n Qual o raio? \n Digite aqui "); 
-    scanf("%lf", &raio);
+    scanf("%lf\n", &raio);
     printf("\n Qual a altura? \n Digite aqui "); 
-    scanf("%lf", &altura);
+    scanf("%lf\n", &altura);
     
     //função real do exercicio
     raio = raio * raio;
