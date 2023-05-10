@@ -11,6 +11,8 @@ int exercicio1(int a, int b){
     int resultadoproduto ; 
     int resultadodivisao ;
 
+    a = 0;
+    b = 0;
 
     printf("\n vamos entrar no execicio");
     
@@ -100,29 +102,50 @@ printf("\n\nfim do exercicio 4");
 
 
 int main(){
-
-    int a ;
-    int b ;
+//variaveis
+    int a = 0;
+    int b = 0;
+    int d ;
     int resultadosoma ;
     int resultadoproduto ; 
     int resultadodivisao ;
-
+//variaveis flutuantes
     double c;
-    double d;
-    double resultado;
-
     
+    double resultado;
     double volume;
     float conversao;
 
-    printf("\n Vai tomar no cu caralho\n");
-    exercicio1(a, b);
-    exercicio2(resultado , c);
-    exercicio3(volume);
-    exercicio4(conversao);
-    
-    
-    
+do
+{
+    printf("\nEscolha o exercicio para executar\n");
+    printf("\nEscolha o exercicio 1");
+    printf("\nEscolha o exercicio 2");
+    printf("\nEscolha o exercicio 3");
+    printf("\nEscolha o exercicio 4");
+
+    printf("\nEscolha o ZERO para sair");
+
+    printf("\nEscolha o exercicio uma opcao "); scanf("%d",&d);
+    //system("cls || clear");
+
+    switch (d)
+    {
+    case 1: exercicio1(a, b);
+        break;
+    case 2: exercicio2(resultado , c);
+        break;
+    case 3: exercicio3(volume);
+        break;
+    case 4: exercicio4(conversao);
+        break;
+    default:
+    printf("\n DIGITE ALGO VALIDO!\n");
+        break;
+    }
+
+} while (d != 0);
+
     
     printf("\n PRECIONE QUALQUER TECLA PARA SAIR \n ");
     getchar();
