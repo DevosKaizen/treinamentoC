@@ -2,15 +2,17 @@
 #include <stdlib.h>
 #include <math.h>
 
-//1. Solicite ao usuário dois inteiros e exiba a soma, o produto e a divisão desses dois números.
+
 //vamos fazer com do while
 int exercicio1(int a, int b){
-
+//1. Solicite ao usuário dois inteiros e exiba a soma, o produto e a divisão desses dois números.
     
     int resultadosoma ;
     int resultadoproduto ; 
     int resultadodivisao ;
 
+    a = 0;
+    b = 0;
 
     printf("\n vamos entrar no execicio");
     
@@ -26,19 +28,19 @@ int exercicio1(int a, int b){
     
    
 
-    int soma(int a, int b);{
+    int soma(int a, int b){
         int resultado;
         resultado = a + b;
         printf("\n A soma dos inteiros e: %d", resultadosoma);
         return resultado;
     }
-    int produto(int a, int b);{
+    int produto(int a, int b){
         int resultado;
         resultado = a * b;
         printf("\n O produto dos inteiros e: %d", resultadoproduto);
         return resultado;
     }
-    int divisao(int a, int b);{
+    int divisao(int a, int b){
         int resultado;
         resultado = a / b;
         printf("\n A divisao dos inteiros e: %d", resultadodivisao);
@@ -82,28 +84,68 @@ double exercicio3(double volume){
     printf("\n O volume de uma lata de oleo E: %lf ",volume);
     printf("\n Fim do programa 3! \n ");
 }
-int main(){
+double exercicio4(double conversao){
+    /*  4. Leia uma temperatura em graus Celsius e apresente-a convertida em graus Farenheit. A fórmula de conversão é:
+        F = (9 * C + 160) / 5, sendo F a temperatura em farenheit e C a temperatura em celsius.     */
+ double graus;
+double F;
+double C;
 
-    int a ;
-    int b ;
+printf("\n Digite o valor em celcius: "); scanf("%lf", &C);
+F = 9 * C ;
+F = F + 160;
+conversao = F;
+printf("\n Agora vamos fazer a convecao para farenheit. \n e o resultado e: %lf", conversao);
+printf("\n\nfim do exercicio 4");
+
+}
+
+
+int main(){
+//variaveis
+    int a = 0;
+    int b = 0;
+    int d ;
     int resultadosoma ;
     int resultadoproduto ; 
     int resultadodivisao ;
-
+//variaveis flutuantes
     double c;
-    double d;
+    
     double resultado;
-
-    
     double volume;
+    float conversao;
 
-    printf("\n Vai tomar no cu caralho\n");
-    exercicio1(a, b);
-    exercicio2(resultado , c);
-    exercicio3(volume);
-    
-    
-    
+do
+{
+    printf("\nEscolha o exercicio para executar\n");
+    printf("\nEscolha o exercicio 1");
+    printf("\nEscolha o exercicio 2");
+    printf("\nEscolha o exercicio 3");
+    printf("\nEscolha o exercicio 4");
+
+    printf("\nEscolha o ZERO para sair");
+
+    printf("\nEscolha o exercicio uma opcao "); scanf("%d",&d);
+    //system("cls || clear");
+
+    switch (d)
+    {
+    case 1: exercicio1(a, b);
+        break;
+    case 2: exercicio2(resultado , c);
+        break;
+    case 3: exercicio3(volume);
+        break;
+    case 4: exercicio4(conversao);
+        break;
+    default:
+    printf("\n DIGITE ALGO VALIDO!\n");
+        break;
+    }
+
+} while (d != 0);
+
     
     printf("\n PRECIONE QUALQUER TECLA PARA SAIR \n ");
     getchar();
